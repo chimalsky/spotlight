@@ -2,7 +2,7 @@
 
 return [
     'baseUrl' => 'http://spotlight.test',
-    'production' => false,
+    'production' => true,
     'siteName' => 'Blog Starter Template',
     'siteDescription' => 'Generate an elegant blog with Jigsaw',
     'siteAuthor' => 'Author Name',
