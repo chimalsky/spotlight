@@ -29,7 +29,7 @@
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-900 text-gray-200 leading-normal font-sans">
         <header class="text-right container mt-2">
-            <a href="/">
+            <a href="/" class="pr-4 lg:pr-0 font-thin">
                 200 wad 
 
                 <span class="font-semibold">
@@ -53,7 +53,7 @@
             </div>
 
             <div class="w-full mb-4">
-                To get involved, reach out to 
+                Contact me at 
                 <a href="mailto:ich.bin.abe@gmail.com">
                     ich.bin.abe@gmail.com 
                 </a>

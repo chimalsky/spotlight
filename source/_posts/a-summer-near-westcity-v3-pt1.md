@@ -16,11 +16,14 @@ The suite felt absolutely different than before. But other than the Goya, I coul
 
 Something inside me kept me from flicking on the lights. Just as my finger was about to reach the switch, the office beckoned whatever was inside me. I walked in to find a single note, along with a bottle of whiskey, on top of the desk.
 
-`I trust you have upheld your end of the deal. One minor issue has cropped up. I don’t expect to be returning to the office. Maybe you can get some use out of it while this all blows over. I even had a Goya put up for you in the reception space.
+    I trust you have upheld your end of the deal. One minor issue has cropped up. 
+    I don’t expect to be returning to the office. Maybe you can get some use out 
+    of it while this all blows over. I even had a Goya put up for you 
+    in the reception space.
 
-Sincerely,
-Ball
-`
+    Sincerely,
+    Ball
+
 
 I must've read the note five times. Through the window I heard the city coming alive. Cars. People going out to bars. Noise of humans. Still holding onto the note, I returned to Mr. Ball's office to pour myself a drink, I noticed that the portrait on the wall was gone. 
 

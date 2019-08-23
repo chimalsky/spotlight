@@ -12,9 +12,15 @@
         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
 
-    <h1 class="leading-none mb-2">{{ $page->title }}</h1>
+    <header class="text-gray-500 text-center">
+        <h1 class="leading-none mb-2 text-xs font-normal">
+            {{ $page->title }}
+        </h1>
 
-    <p class="text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }}</p>
+        <p class="md:mt-0 text-xs">
+            {{ $page->author }}  •  {{ date('F j, Y', $page->date) }}
+        </p>
+    </header>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
@@ -26,14 +32,14 @@
         @endforeach
     @endif
 
-    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+    <div class="mb-24" v-pre>
         @yield('content')
     </div>
 
     @if ($page->postLink)
-        <footer class="my-12">
+        <footer class="my-12 border-t border-b border-teal-700 py-4 px-2">
             <a href="{{ $page->postLink }}" class="font-hairline text-sm underline">
-                Read this on 200wad or engage with {{ $page->author }}
+                Engage with {{ $page->author }} on 200wad
             </a>
         </footer>
     @endif
