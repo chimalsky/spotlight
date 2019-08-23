@@ -25,3 +25,5 @@ Reasons why my friends are quitting or moving on to other roles after 2 years of
 - "I want to make music"
 - "Tech might be my thing and I want to join a bootcamp"
 - "Can't see growth at the firm and there are too many team politics."
+
+> Abhinaya is a VC at M25 where she helps make new investments and works with portfolio companies. M25 invests in midwest headquartered early-stage tech startups across industries. 

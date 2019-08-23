@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://spotlight.test',
     'production' => false,
     'siteName' => 'Blog Starter Template',
     'siteDescription' => 'Generate an elegant blog with Jigsaw',

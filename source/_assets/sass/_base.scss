@@ -18,7 +18,7 @@ blockquote {
     @apply .italic;
     @apply .my-8;
     @apply .pl-6;
-    @apply .text-gray-800;
+    @apply .text-gray-400;
     @apply .text-lg;
 }
 
@@ -105,6 +105,7 @@ ol,
 ul {
     @apply .my-4;
     @apply .list-disc;
+    @apply .list-inside;
 
     li {
         @apply .mb-1;

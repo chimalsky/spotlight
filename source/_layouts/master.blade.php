@@ -45,10 +45,17 @@
         </main>
 
         <footer class="text-center text-sm mt-12 py-4" role="contentinfo">
-            <div class="w-full mb-4">
+            <div class="w-full mb-2">
                 Powered by the writers at 
                 <a href="https://200wordsaday.com">
                     200wad
+                </a>
+            </div>
+
+            <div class="w-full mb-4">
+                To get involved, reach out to 
+                <a href="mailto:ich.bin.abe@gmail.com">
+                    ich.bin.abe@gmail.com 
                 </a>
             </div>
 
