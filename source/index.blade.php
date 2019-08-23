@@ -40,13 +40,20 @@
         Past Features
     </header>
 
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
-        <div class="flex flex-col md:flex-row md:-mx-6 mt-4">
-            @foreach ($row as $post)
-                <div class="w-full md:w-1/2 md:mx-6">
-                    @include('_components.post-preview-inline')
-                </div>
-            @endforeach
-        </div>
-    @endforeach
+    <div class="w-full flex flex-wrap mt-4">
+        @foreach ($posts->where('featured', false) as $post)
+            <div class="w-full md:w-1/2 px-4">
+                @include('_components.post-preview-inline')
+            </div>
+        @endforeach
+    </div>
+
+    <footer class="text-center mt-24">
+        Nextup is Rosie Odsey 
+        <a href="https://200wordsaday.com/writers/rosieodsey">
+            @rosieodsey
+        </a>
+
+        in your inbox August 30th
+    </footer>
 @stop

@@ -12,12 +12,12 @@
         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
 
-    <header class="text-gray-500 text-center">
-        <h1 class="leading-none mb-2 text-xs font-normal">
+    <header class="">
+        <h1 class="leading-none mb-2 text-xs font-hairline">
             {{ $page->title }}
         </h1>
 
-        <p class="md:mt-0 text-xs">
+        <p class="md:mt-0 text-xs font-hairline">
             {{ $page->author }}  •  {{ date('F j, Y', $page->date) }}
         </p>
     </header>

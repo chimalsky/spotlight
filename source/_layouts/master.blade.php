@@ -44,7 +44,7 @@
             @yield('body')
         </main>
 
-        <footer class="text-center text-sm mt-12 py-4" role="contentinfo">
+        <footer class="text-center text-sm mt-2 py-4" role="contentinfo">
             <div class="w-full mb-2">
                 Powered by the writers at 
                 <a href="https://200wordsaday.com">

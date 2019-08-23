@@ -1,10 +1,10 @@
-<div class="flex flex-col mb-4">
+<div class="">
 
     <h2 class="text-xl">
         <a
             href="{{ $post->getUrl() }}"
             title="Read more - {{ $post->title }}"
-            class="font-normal text-gray-400"
+            class="font-normal text-gray-500"
         >{{ $post->title }}</a>
     </h2>
 
