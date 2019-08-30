@@ -25,7 +25,7 @@
 
             <p class="mt-32 italic bg-gray-800 pt-4 pb-4 px-2">
                 You can discuss this post here:
-                <a href="{{ $featuredPost->postLink() }}" title="Read {{ $featuredPost->title }}" 
+                <a href="{{ $featuredPost->postLink }}" title="Read {{ $featuredPost->title }}" 
                 class="text-gray-200">
                     {{ $featuredPost->title }}
                 </a>
