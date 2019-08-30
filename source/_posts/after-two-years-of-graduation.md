@@ -6,7 +6,6 @@ date: 2019-08-23
 categories: [volume-1]
 author: Abhinaya Konduru
 postLink: https://200wordsaday.com/words/after-2-years-of-graduation-255405d5dd65b689ab
-featured: true
 ---
 
 Reasons why my friends are quitting or moving on to other roles after 2 years of graduating form college.
