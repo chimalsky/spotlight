@@ -2,32 +2,44 @@
 
 @section('body')
     @foreach ($posts->where('featured', true) as $featuredPost)
-        <header class="">
-            <h1 class="text-sm font-normal">
-                Current Feature: 
-                <span class="font-semibold">
-                    Rosie Odsey
-                </span>
-            </h1>
+        <header class="featured-header">
+            <main class="flex-auto w-full max-w-4xl mx-auto flex flex-wrap pt-4 pb-12">
+                @if ($featuredPost->cover_image)
+                    <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="">
+                @endif
+                <section class="ml-4">
+                    <h1 class="font-serif font-hairline">
+                        {{ $featuredPost->title }}
+                    </h1>
 
+                    <p class="w-full">
+                        {{ $featuredPost->author }}
+                    </p>
+                </section>
+            </main>
         </header>
 
-        <div class="w-full mb-24">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
-
+        <main class="flex-auto w-full max-w-4xl mx-auto">
             <p class="mt-0 mb-4">{!! $featuredPost !!}</p>
 
+            @if ($featuredPost->footer_image)
+                <section class="flex justify-center">
+                    <div class="max-w-sm mt-4">
+                        <img src="{{ $featuredPost->footer_image }}" alt="{{ $featuredPost->title }} cover image" class="">
+                    </div>
+                </section>
+            @endif
+
             <p class="text-gray-300 text-xs my-2 text-right">
+                {{ $featuredPost->author }} <br/>
                 {{ $featuredPost->getDate()->format('F j, Y') }}
             </p>
 
             <p class="mt-32 italic bg-gray-800 pt-4 pb-4 px-2">
-                You can discuss this post here:
+                Discuss {{ $featuredPost->title }} 
                 <a href="{{ $featuredPost->postLink }}" title="Read {{ $featuredPost->title }}" 
                 class="text-gray-200">
-                    {{ $featuredPost->title }}
+                    at 200WordsADay.com
                 </a>
             </p>
 
@@ -35,8 +47,19 @@
                 <p class="text-sm text-gray-400">
                     {{ $featuredPost->authorBio }}
                 </p>
+
+                @if ($featuredPost->authorBio2)
+                    <p class="text-sm text-gray-400">
+                        {{ $featuredPost->authorBio2 }}
+                    </p>
+                @endif
+                @if ($featuredPost->authorBio3)
+                    <p class="text-sm text-gray-400">
+                        {{ $featuredPost->authorBio3 }}
+                    </p>
+                @endif
             @endif
-        </div>
+        </main>
 
         @if ($loop->last)
             <hr class="border-b border-teal-700 my-6">
@@ -44,16 +67,16 @@
     @endforeach
 
 
-    <footer class="text-center mt-24">
+    <footer class="text-center mt-24 flex-auto w-full max-w-4xl mx-auto">
         Nextup is
-        <a href="https://200wordsaday.com/writers/dandelion">
-            @Dandelion
+        <a href="https://200wordsaday.com/writers/keenencharles">
+            @keenencharles
         </a>
 
-        in your inbox September 6
+        in your inbox September 13
     </footer>
 
-    <section class="mt-24">
+    <section class="mt-24 flex-auto w-full max-w-4xl mx-auto ">
 
         <header class="mb-8 text-sm">
             Past Features

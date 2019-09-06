@@ -6,7 +6,7 @@ date: 2019-08-30
 categories: [volume-1]
 author: Rosie Odsey
 postLink: https://200wordsaday.com/words/on-preparation-and-readiness-146895cb113c97f1c2
-featured: true
+featured: false
 authorBio: Rosie is a marketer by day and a systems nerd by night. Her greatest achievement is crafting a life that allows her to be completely herself, deeply connected to those around her, and capable of producing useful work.
 
 ---
