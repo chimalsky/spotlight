@@ -67,13 +67,13 @@
     @endforeach
 
 
-    <footer class="text-center mt-24 flex-auto w-full max-w-4xl mx-auto">
+    <footer class="text-center mt-24 flex-auto w-full max-w-4xl mx-auto hidden">
         Nextup is
-        <a href="https://200wordsaday.com/writers/keenencharles">
-            @keenencharles
+        <a href="">
+            
         </a>
 
-        in your inbox September 13
+        in your inbox September 20
     </footer>
 
     <section class="mt-24 flex-auto w-full max-w-4xl mx-auto ">

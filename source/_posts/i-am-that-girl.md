@@ -6,7 +6,7 @@ date: 2019-09-06
 categories: [volume-1]
 author: Sheila Adufutse
 postLink: https://200wordsaday.com/words/i-am-that-girl-265945d724a933a05b
-featured: true
+featured: false
 authorBio: Shells is always probing beyond the superficial. Searching, finding out why things are a certain way. “That’s just the way it is” never quite cuts it for her. Right after finding out why, she wants to know how we can improve upon it, how we can make it better and how we can fix it, if it’s broken. I think one of her most uttered phrases has to be “actionable steps”.
 authorBio2: She’s constantly striving for conversations to evolve past table discussions into actual productive actions. There’s a warmth about whatever she does, always the factor of human emotion. It’s almost like she pours bits of her heart into everything she lays her hands on. She’s strong, and incredibly resourceful. 
 authorBio3: More importantly she’s honest and wouldn’t compromise on the truth, while still putting in effort to shield everyone involved from harm. It’s virtually impossible for Shells to enter a space and go unnoticed. A walking, breathing personification of radiant, positive energy. 
