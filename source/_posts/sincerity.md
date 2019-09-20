@@ -6,7 +6,7 @@ date: 2019-09-13
 categories: [volume-1]
 author: Keenen Charles
 postLink: https://200wordsaday.com/words/sincerity-270785d7b7284ed67d
-featured: true
+featured: false
 
 ---
 
