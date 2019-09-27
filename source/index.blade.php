@@ -7,7 +7,7 @@
                 @if ($featuredPost->cover_image)
                     <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="">
                 @endif
-                <section class="ml-4">
+                <section class="">
                     <h1 class="font-serif font-hairline">
                         {{ $featuredPost->title }}
                     </h1>
