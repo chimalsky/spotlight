@@ -62,7 +62,7 @@
         </main>
 
         @if ($loop->last)
-            <hr class="border-b border-teal-700 my-6">
+            <hr class="border-b border-teal-700 mt-16 mb-6">
         @endif
     @endforeach
 
