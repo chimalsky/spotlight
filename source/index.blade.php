@@ -84,7 +84,7 @@
 
         <div class="w-full flex flex-wrap mt-4">
             @foreach ($posts->where('featured', false) as $post)
-                <div class="w-full md:w-1/2 px-4">
+                <div class="w-full md:w-1/2 px-4 mb-24">
                     @include('_components.post-preview-inline')
                 </div>
             @endforeach

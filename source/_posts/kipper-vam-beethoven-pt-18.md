@@ -5,7 +5,7 @@ title: Kipper Vam Beethoven -- Part 18
 date: 2019-09-20
 categories: [volume-1]
 author: Daniel Miller
-featured: true
+featured: false
 postLink: https://200wordsaday.com/words/kipper-vam-beethoven-part-18-275455d84f201e4bc2
 ---
 
