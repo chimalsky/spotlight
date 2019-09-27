@@ -7,6 +7,8 @@ categories: [volume-1]
 author: Seun Oyebode
 featured: true
 postLink: https://www.200wordsaday.com/words/desire-beats-the-map-279325d8dfb136cdcb
+authorBio: Seun is a single, 28 year old, Web Developer based in Lagos, Nigeria. He's a pizza and Fanta fan. He has a degree in Entrepreneurship, hence Seun loves tech, startups and everything in between.
+
 ---
 
 I could have titled this, what programming teaches me daily. But I love the title, it’s catchy. Could easily be a mental hook.
